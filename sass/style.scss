@@ -1,0 +1,25 @@
+///Reseteo y color de fondo///
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@import "index";
+
+@import "estilos";
+
+@import "turnos";
+
+@import "precios";
+
+@import "mapa";
+
+

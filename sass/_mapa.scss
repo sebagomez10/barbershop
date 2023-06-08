@@ -1,0 +1,30 @@
+/* mapa */
+
+.mapa { 
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+    display: f;
+}
+.titulosucursales { 
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 0 auto;
+    padding: 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center
+}
+
+
+@media  screen and (max-width: 700px) {
+    .mapa{
+        margin-left: 0 auto;
+        height: auto;
+        width: auto;
+    }
+    
+}
