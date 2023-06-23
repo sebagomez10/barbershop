@@ -60,25 +60,6 @@ section .titulo {
   justify-content: center;
 }
 
-/* media query de la pagina estilos */
-@media screen and (max-width: 1225px) {
-  .caja3 {
-    grid-column: 1/span 3;
-    justify-content: left;
-  }
-}
-@media screen and (max-width: 1225px) and (max-width: 820px) {
-  .caja2 {
-    grid-column: 1/span 3;
-    justify-content: left;
-  }
-  .grid-layout {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: repeat 3, 400px;
-    gap: 100px;
-  }
-}
 /* css de turnos */
 .turnos .card1 {
   width: 500px;
@@ -98,31 +79,16 @@ section .titulo {
   display: inline-flex;
 }
 
-/* mapa */
-.mapa {
-  width: 800px;
-  height: 700px;
-  margin: 0 auto;
-  padding: 100px;
-  display: flex;
-  display: f;
+html {
+  height: 100%;
 }
 
-.titulosucursales {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  margin-bottom: 0 auto;
-  padding: 20px;
-  color: whitesmoke;
+body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
 }
 
-@media screen and (max-width: 700px) {
-  .mapa {
-    margin-left: 0 auto;
-    height: auto;
-    width: auto;
-  }
+footer {
+  margin-top: auto;
 }/*# sourceMappingURL=style.css.map */
