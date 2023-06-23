@@ -49,17 +49,6 @@ section .estilos {
   color: whitesmoke;
 }
 
-/* titulo */
-section .titulo {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  padding: 20px;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-}
-
 /* css de turnos */
 .turnos .card1 {
   width: 500px;
